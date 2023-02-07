@@ -6,8 +6,8 @@ using namespace std;
 //default-initializes all priate members, booleansare default-initialized to false
 Book::Book()
 {
-    book_title_ = " ";
-    author_name_ = " ";
+    book_title_ = "";
+    author_name_ = "";
     num_pages_ = 0;
     digital_ = false;
 }
